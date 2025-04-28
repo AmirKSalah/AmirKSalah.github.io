@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: 'blockletter';
+  src: url('minesweeper/fonts/Blockletter.otf') format('opentype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,6 +34,12 @@ body {
   
 
 }
+
+.heading {
+
+}
+
+
 
 
 
@@ -129,12 +141,12 @@ header h2 {
 .paragraph {
 
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #3b3b3b;
-  background-color: white;
+  background-color: 1e1e1eb9;
   border: 3px solid;
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
@@ -153,4 +165,59 @@ header h2 {
   align-items: center;
   justify-content: center; /* (optional) to center both items horizontally */
   gap: 20px; /* (optional) spacing between text and image */
+  margin-top: 40px;
+}
+
+.about img {
+  width: 150px;
+  height: auto;
+  box-shadow: 5px 5px 5px rgb(49, 49, 49);
+  /* border-radius: 10px; optional: makes the corners slightly rounded */
+}
+
+
+
+
+.bn47 {
+  position: relative;
+  padding: 1rem 2rem 0.5rem 2.5rem;
+  color: #000000;
+  border: 3px solid #776e62;
+  background-color: #ffffff;
+  -webkit-transition: padding 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
+  font-family: "blockletter";
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.bn47:before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e1eb9;
+  border-right: 3px solid #1e1e1eb9;
+  border-bottom: 3px solid #1e1e1eb9;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bn47:hover {
+  padding: 0.75rem 2.25rem;
+}
+
+.bn47:hover:before {
+  top: 0;
+  left: 0;
+}
+
+
+
+.buttonwrapper {
+  text-align: center;
+
 }
