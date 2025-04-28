@@ -19,16 +19,17 @@ body {
   padding-top: 0px;
   display: inline-block;
   padding-left: 50px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  float:right
+  margin-top: 20px;
+  width: 125px;
+  float: right;
+  text-align: right;
+
+  
   
 
 }
 
-.subheading {
-  /* font-size: 10px; */
-}
+
 
 .leftbar {
   text-align: left;
@@ -36,11 +37,12 @@ body {
   padding-top: 0px;
   display: inline-block;
   padding-left: 20px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .topbar {
   background-color: #474747;
+  height: 140px;
 }
 
 
@@ -66,16 +68,88 @@ header h2 {
   color: #3b3b3b;
   cursor: pointer;
   border: 3px solid;
-  padding: 0.25em 0.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+  padding-left: 10px;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-right: 0px;
 }
 
 .button-54:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
+}
+
+.text-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3b3b3b;
+  background-color: white;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.text-54-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3b3b3b;
+  background-color: white;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.paragraph {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3b3b3b;
+  background-color: white;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.about {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
