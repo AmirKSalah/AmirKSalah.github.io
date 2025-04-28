@@ -135,7 +135,6 @@ header h2 {
   text-transform: uppercase;
   color: #3b3b3b;
   background-color: white;
-  cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
@@ -145,11 +144,13 @@ header h2 {
   touch-action: manipulation;
   margin-top: 20px;
   text-align: center;
+  display: inline-block;
   
 }
 
 .about {
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* (optional) to center both items horizontally */
+  gap: 20px; /* (optional) spacing between text and image */
 }
