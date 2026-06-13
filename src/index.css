@@ -76,6 +76,11 @@ button:focus-visible {
     src: url(../fonts/Blockletter.otf), local('Blockletter'), format('opentype');
 }
 
+@font-face {
+    font-family: 'SourGummy';
+    src: url(../fonts/SourGummy.ttf), local('SourGummy'), format('truetype');
+}
+
 .centerGraphContainer {
     width: 100%;
     height: 100%;

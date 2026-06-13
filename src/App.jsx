@@ -10,12 +10,6 @@ export default function App() {
         <div>
             <div>
                 <h1 className="name">amir salah</h1>
-                <li>
-                    <a className="navItems">hi</a>
-                </li>
-                <li>
-                    <a>bye</a>
-                </li>
             </div>
 
             <Mesh></Mesh>

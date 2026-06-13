@@ -8,7 +8,8 @@
         "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "watch": "watch 'npm run build' ./src"
     },
     "dependencies": {
         "@react-three/drei": "^10.7.7",
@@ -17,7 +18,9 @@
         "prettier": "^3.7.4",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
-        "three": "^0.182.0"
+        "react-router": "^7.11.0",
+        "three": "^0.182.0",
+        "watch": "^1.0.2"
     },
     "devDependencies": {
         "@eslint/js": "^9.39.1",
