@@ -5,15 +5,16 @@ const storyContent = {
     'was-i-alive': {
         title: 'Was I Alive?',
         content: `
-            <p>The question haunted me for years. Not the philosophical kind that everyone grapples with at 3 AM. But something simpler, more devastating: Was I actually present?</p>
-            
-            <p>I moved through moments like a ghost passing through walls. School days blurred together. Friendships formed and dissolved without my noticing. Even when I was laughing, even when I was supposedly having fun, some part of me felt like I was watching from outside my own body.</p>
-            
-            <p>It wasn't until much later that I understood: you don't get to choose when you start living. Sometimes you just wake up one day and realize you've been asleep the whole time. And by then, so much time has already slipped through your fingers.</p>
-            
-            <p>Now, I'm trying to be more present. To feel the weight of moments as they happen. To answer that question differently.</p>
-            
-            <p>Am I alive? Yes. Finally.</p>
+            <p>Was I alive?</p>
+            <p>I know I died, but before that, was I alive?</p>
+            <p>My limbs feel cold and numb against the examination wall. Researchers scurry back and forth, scribbling notes on their clipboards and whispering to one another. I am not sure what they could be observing. I never move or eat. </p>
+            <p>My life is largely purposeless. I exist only through the researchers' eyes. I am supposed to be under constant supervision, but in small shift change gaps when the room is empty, it is as if the world stops. It is pitch black, and the soundproof walls make it dead silent, and my ears twitch. I am extremely frightened by the world stopping.</p>
+            <p>I cannot move much, or very quickly. My limbs are a lost cause. They are always numb, and I wonder if they have any nerves at all. I can move my head and neck. The rate is extremely slow, perhaps a few degrees of swivel per day if I am focusing. The researchers make sure to note this down. </p>
+            <p>Of course, I cannot move my mouth or tongue, rendering me mute. This has made my mind much sharper. I write long stories and imagined autobiographies in my head which will never be seen or heard by anyone else, and come up with thought experiments to test myself with. Even though I've never had an education, I think I am the smartest person I know. </p>
+            <p>I am unsure of the nature of my existence. Why was I made as such a low-funcitoning member of my species, artifically kept alive? My brain becomes very foggy, but if I try hard enough, I can conjure memories of life before the facility. The sun on my golden-brown tanned skin, the wind pushing my hair back as I surf and splash into the water. </p>
+            <p>My appearance now is not consistent with these memories. When I crane my neck down and see my naked body, perpetually suspended on the facility wall, my skin is far paler. My limbs are withered and useless. I have both sex organs, and have heard the researchers describe my phenotype as androgynous. I am not sure if this was an error or by design. </p>
+            <p> Today -- as if the days have any bearing on my life in the sterile facility room -- it is just me and one observer. This is odd, as there are usually numerous people in the room with my at any given moment. But not today. </p>
+            <p> The observer is a hunched-over, graying man. I have seen him many times before, his wrinkles seeming to deepen each time. He looks into my eyes with reserved pity. I do not mind being alone with him, especially compared to the others; his gaze has always felt less violating. </p>
         `,
     },
 }

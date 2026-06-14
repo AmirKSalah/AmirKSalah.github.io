@@ -230,6 +230,17 @@ button:focus-visible {
 }
 
 /* Story Page Styles */
+.page-container.story-page {
+    overflow-y: auto;
+    padding-bottom: 5rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.page-container.story-page::-webkit-scrollbar {
+    display: none;
+}
+
 .story-page {
     max-width: 800px;
 }
