@@ -9,7 +9,7 @@ export default function Writing() {
             <Link to="/" className="home-icon">
                 ⌂
             </Link>
-            <div className="page-container">
+            <div className="nav-items">
                 <h1 className="main-heading">writing</h1>
                 <div className="page-content">
                     <ul className="stories-list">

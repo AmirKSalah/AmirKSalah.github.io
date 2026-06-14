@@ -50,9 +50,6 @@ export default function StoryPage() {
                     <h1 className="page-title">Story Not Found</h1>
                     <div className="page-content">
                         <p>Sorry, this story doesn't exist.</p>
-                        <Link to="/writing" className="back-link">
-                            ← Back
-                        </Link>
                     </div>
                 </div>
             </>
@@ -65,9 +62,6 @@ export default function StoryPage() {
                 ⌂
             </Link>
             <div className="page-container story-page">
-                <Link to="/writing" className="back-link">
-                    ← Back
-                </Link>
                 <h1 className="story-title">{story.title}</h1>
                 <div className="story-content" dangerouslySetInnerHTML={{ __html: story.content }} />
             </div>

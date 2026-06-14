@@ -7,10 +7,10 @@ export default function Career() {
             <Link to="/" className="home-icon">
                 ⌂
             </Link>
-            <div className="page-container">
-                <h1 className="main-heading">Career</h1>
+            <div className="nav-items">
+                <h1 className="main-heading">career</h1>
                 <div className="page-content">
-                    <p className="stub-text">Coming soon...</p>
+                    <p className="stub-text">coming soon...</p>
                 </div>
             </div>
         </>

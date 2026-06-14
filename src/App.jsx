@@ -13,20 +13,18 @@ export default function App() {
                 ⌂
             </Link>
 
-            <div className="header-section">
+            <div className="nav-items">
                 <h1 className="main-heading">amir salah</h1>
-                <ul className="nav-items">
-                    <li>
-                        <Link to="/career" className="nav-link">
-                            career
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/writing" className="nav-link">
-                            writing
-                        </Link>
-                    </li>
-                </ul>
+                <li>
+                    <Link to="/career" className="nav-link">
+                        career
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/writing" className="nav-link">
+                        writing
+                    </Link>
+                </li>
             </div>
 
             <Mesh></Mesh>
