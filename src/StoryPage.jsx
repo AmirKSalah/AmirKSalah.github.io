@@ -15,6 +15,7 @@ const storyContent = {
             <p>My appearance now is not consistent with these memories. When I crane my neck down and see my naked body, perpetually suspended on the facility wall, my skin is far paler. My limbs are withered and useless. I have both sex organs, and have heard the researchers describe my phenotype as androgynous. I am not sure if this was an error or by design. </p>
             <p> Today -- as if the days have any bearing on my life in the sterile facility room -- it is just me and one observer. This is odd, as there are usually numerous people in the room with my at any given moment. But not today. </p>
             <p> The observer is a hunched-over, graying man. I have seen him many times before, his wrinkles seeming to deepen each time. He looks into my eyes with reserved pity. I do not mind being alone with him, especially compared to the others; his gaze has always felt less violating. </p>
+            <p></p>
         `,
     },
 }
