@@ -27,7 +27,7 @@ body,
 
 a {
     font-weight: 500;
-    color: #9db4d4;
+    color: rgba(255, 255, 255, 0.87);
     text-decoration: inherit;
 }
 a:hover {
@@ -132,7 +132,7 @@ button:focus-visible {
     top: 2rem;
     right: 2rem;
     font-size: 2em;
-    color: #9db4d4;
+    color: #e1bceb;
     text-decoration: none;
     transition: color 0.3s ease;
     cursor: pointer;
@@ -140,7 +140,7 @@ button:focus-visible {
 }
 
 .home-icon:hover {
-    color: #b8d0e8;
+    color: #ae90b5;
 }
 
 /* Header Section Styles */
@@ -167,7 +167,7 @@ button:focus-visible {
 
 .nav-link {
     font-size: 1.3em;
-    color: #9db4d4;
+    /* color: #9db4d4; */
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 500;
@@ -219,7 +219,7 @@ button:focus-visible {
 
 .story-link {
     font-size: 1.3em;
-    color: #9db4d4;
+    /* color: #9db4d4; */
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 500;
@@ -249,13 +249,13 @@ button:focus-visible {
     display: inline-block;
     margin-bottom: 2em;
     font-size: 1em;
-    color: #9db4d4;
+    color: #e1bceb;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .back-link:hover {
-    color: #b8d0e8;
+    color: #9980a0;
 }
 
 .story-title {
